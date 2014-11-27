@@ -4,23 +4,39 @@
     padding: 0;
 }
 html, body{
-    font: 14px "Arial";
+    font: 12px "Arial";
     color: #231F20;
     background: #F5F5F5 ;
+}
+@font-face {
+    font-family: 'Poor Richard Regular';
+    src: url('../fonts/poorich.eot');
+    src: url('../fonts/poorich.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poorich.woff2') format('woff2'),
+    url('../fonts/poorich.woff') format('woff'),
+    url('../fonts/poorich.ttf') format('truetype'),
+    url('../fonts/poorich.svg#poor_richardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 ul, ol{
     margin-bottom: 0;
 }
+a:hover{
+    text-decoration: none;
+}
 #main-header{
     overflow: hidden;
-    height: 118px;
-    padding-top: 15px;
+    padding-top: 5px;
     font-family: "Roboto";
+    padding-bottom: 10px;
 }
 #main-header .extend{
     font-size: 12px;
     padding-top: 5px;
     color: #757575;
+
 }
 .logo{
     width: 250px;
@@ -30,7 +46,6 @@ ul, ol{
 }
 #link-relate li{
     float: left;
-    margin-right: 5px;
 }
 #link-relate li a{
     border: 1px solid #ccc;
@@ -42,13 +57,13 @@ ul, ol{
     text-align: center;
 }
 #link-relate li:hover a{
-    background: #E74C3C;
+    background: #0e557d;
     color: #ffffff;
 }
 #main-search-box{
     position: relative;
-    width: 490px;
-    border: 2px solid #E74C3C;
+    width: 400px;
+    border: 2px solid #0e557d;
     clear: both;
 }
 #main-search-box button{
@@ -56,15 +71,15 @@ ul, ol{
     position: absolute;
     top: 0;
     right: 0;
-    height: 36px;
+    height: 25px;
     width: 100px;
-    background: #E74C3C;
+    background: #0e557d;
     color: #ffffff;
     text-align: center;
     font-size: 18px;
 }
 #main-search-box input{
-    height: 36px;
+    height: 25px;
     width: 100%;
     background: #ffffff;
     padding-right: 120px;
@@ -76,12 +91,12 @@ ul, ol{
     padding: 5px;
 }
 #top-link li a{
-    color: #E74C3C;
+    color: #0e557d;
     font-weight: 600;
     font-family: "Roboto";
 }
 .navbar{
-    background: #E74C3C;
+    background: #0e557d;
 }
 .navbar .nav > li > a {
     color: #fff;
@@ -89,7 +104,6 @@ ul, ol{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    line-height: 28px;
     text-shadow: none;
     -webkit-transition: background-color .25s, color .25s, border-bottom-color .25s;
     transition: background-color .25s, color .25s, border-bottom-color .25s;
@@ -109,16 +123,39 @@ ul, ol{
     box-shadow: 0 0 2px 2px #EEEEEE;
 }
 #hot-news ul{
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
 }
 #hot-news ul>li{
-    margin-bottom: 3px;
-    list-style-type: square;
+    padding: 10px 0 10px ;
+    list-style-type: none;
+    border-top: 1px dotted #d4d4d4;
+}
+#hot-news ul>li > a{
+    padding-left: 20px;
+    background: url("../images/icons/icons.gif");
+    background-repeat: no-repeat;
+}
+#hot-news ul>li.services-intro a{
+    background-position: 0 -272px;
+
+}
+#hot-news ul>li.how-to-buy a{
+    background-position: 0 -160px;
+}
+#hot-news ul>li.shipping a{
+    background-position: 0 -240px
+}
+#hot-news ul>li.order a{
+    background-position: 0 -208px;
+}
+#hot-news ul>li.online a{
+    background-position: 0 -176px;
 }
 #hot-news ul>li>a{
     color: #231F20;
+    font-size: 14px;
 }
 #hot-news ul>li:hover>a{
     color: #ff0000;
@@ -141,6 +178,56 @@ ul, ol{
     padding: 10px;
     box-shadow: 0 0 2px 2px #EEEEEE;
 }
+#main-slider .item{
+    max-height: 289px ;
+    overflow: hidden;
+}
+#main-content>.wrapper:first-child{
+    overflow: hidden;
+    padding: 5px 3px 10px 0;
+    border-bottom: 1px dotted #d4d4d4;
+}
+#notice{
+    float: left;
+    max-width: 550px;
+    padding: 5px 0;
+}
+#notice .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+#notice > .content{
+    font-size: 12px;
+}
+#notice > .content >a{
+    color: #FF0000;
+}
+#tool>.item{
+    float: right;
+    margin-left: 10px;
+}
+#tool>.item>.icon>img{
+    width: 40px;
+    height: 40px;
+}
+#tool>.item{
+    padding: 5px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    background: #ffffff;
+}
+#tool>.item>.icon{
+    display: inline-block;
+}
+#tool>.item>.description{
+    display: inline-block;
+    margin-top: 5px;
+}
+#tool>.item>.description>span{
+    display: block;
+}#tool>.item>.description>.version{
+    font-size: 10px;
+ }
 #rule > .title-box{
     text-transform: uppercase;
     font-size: 16px;
@@ -149,10 +236,18 @@ ul, ol{
     margin-bottom: 10px;
     font-weight: bold;
     font-family: "Roboto";
+    clear: both;
 }
 #rule ol > li{
     float: left;
-    padding: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 15px 10px 15px 0;
+    background: url("../images/icons/icon-arrow-right.png") no-repeat right center;
+    background-size: 20px;
+}
+#rule ol > li:last-child{
+    background: none;
 }
 #rule ol > li:hover a{
     color: #ff0000;
@@ -167,32 +262,48 @@ ul, ol{
     -webkit-box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.20);
     -moz-box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.20);
     box-shadow: -3px 0px 5px 0px rgba(50, 50, 50, 0.20);
-    background: #e2ffed;
+    background: #AAE0FF;
     overflow: hidden;
-    padding: 10px 5px ;
-    border-radius: 5px;
 }
 .list-items{
     clear: both;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background: #ffffff;
     overflow: hidden;
-    box-shadow: 0 0 2px 2px #EEEEEE;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
 }
 .list-items .box_title{
     height: 48px;
-    border: 1px solid #e8e8e8;
     position: relative;
-    background: #f1f1f1;
-}
-.list-items .box_title a{
+    background: #d9d9d9;
     text-transform: uppercase;
     font-size: 16px;
     color: #015489;
     font-family: "Roboto";
     font-weight: bold;
+    padding: 0 15px 0 0;
+}
+.list-items .box_title a, .list-items .box_title > span{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #015489;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 0 15px 0 0;
+}
+.list-items .box_title .icon-category{
+    margin-right: 5px;
+    display: inline-block;
+    height: 48px;
+}
+.list-items .box_title .description{
+    display: inline-block;
+    margin-left: 15px;
+    font: 16px "Poor Richard Regular";
+    float: right;
     line-height: 48px;
-    padding: 0 15px;
+    margin-right: 15px;
+    text-transform: none;
 }
 .list-items > .wrapper{
     overflow: hidden;
@@ -218,46 +329,105 @@ ul, ol{
 }
 .list-items .item > .wrapper-thumb > .info-attachment>a{
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 500;
     font-family: "Roboto";
+    font-size: 16px;
 }
 .list-items .item > .wrapper-thumb > .info-attachment:hover{
     background: #D53761;
     text-decoration: none;
 }
 #footer > .container{
-    padding: 25px 15px;
+    padding: 15px  15px 0 ;
     background: #ffffff;
     box-shadow: 0 0 2px 2px #EEEEEE;
+}
+#contact{
+    padding-right: 15px;
 }
 #contact > .title{
     color: #000000;
     font-size: 17px;
     padding-bottom: 7px;
     text-transform: uppercase;
+    font-width: 600;
+    padding-left: 15px;
 }
 #contact > .item{
     margin-bottom: 10px;
     font-family: "Roboto";
+    width: 50%;
+    float: right;
+    padding-left: 15px;
 }
 #contact > .item > .first{
     font-size: 15px;
     font-weight: 600;
 }
-#menu-bottom > li.title{
-    color: #000000;
-    font-size: 17px;
-    padding-bottom: 7px;
-    text-transform: uppercase;
+#menu-bottom{
+    margin: 20px 0 20px;
+    overflow: hidden;
+    text-align: center;
 }
-#menu-bottom > li{
-    list-style-type: none;
-    padding-bottom: 5px;
+#menu-bottom > ul{
+    display: inline-block;
 }
-#menu-bottom > li > a{
+#menu-bottom > ul> li{
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #015489;
+}
+#menu-bottom > ul> li:last-child{
+    border-right: none;
+}
+
+#menu-bottom >ul> li > a{
     font-family: "Roboto";
-    color: #231F20;
+    color: #015489;
 }
-
-
-
+#menu-bottom >ul> li:hover > a{
+    color: #FF0000;
+}
+#bottom-logo{
+    padding-left: 10px;
+}
+#copyright{
+    clear: both;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+#myMap .modal-content{
+    position: relative;
+}
+#myMap .modal-content .close{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+    right: -25px;
+    top: -25px;
+    background: #66AC3C;
+    opacity: 0.8;
+    font-size: 30px;
+}
+#contact .go-to-map{
+    float: left;
+    margin-right: 5px;
+}
+#contact .map{
+    background: url(../images/map.png) no-repeat top;
+    background-size: 100% auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: none;
+    font-size: 0;
+    border-radius: 30px;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.5);
+}
+#address-company .map:hover{
+    background-position: bottom;
+}

@@ -19,4 +19,11 @@
         height: 212px;
         width: 168.5px;
     }
+    #info-brand{
+        padding-left: 10px;
+    }
+    #info-user{
+        padding-right: 10px;
+    }
+
 }

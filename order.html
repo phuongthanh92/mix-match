@@ -117,25 +117,199 @@
     <div id="user">
         <div class="col-sm-6">
             <div class="row">
-                <div id="info-user" class="table-responsive">
-                    <div class="title">
-                        Thông tin khách hàng
-                    </div>
-                    <table class="table">
+                <div id="info-user">
+                    <table class="table bordered table-style-01">
+                        <thead>
                         <tr>
-                            <td></td>
+                            <th colspan="2">Thông tin của bạn</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tên đăng nhập</td>
                             <td></td>
                         </tr>
+                        <tr>
+                            <td>Họ tên</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại di động</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại cố định</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Địa chỉ giao hàng</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div id="info-brand">
+                    <table class="table bordered table-style-01">
+                        <thead>
+                        <tr>
+                            <th colspan="2">Nhập hàng Quảng Châu</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Tên đăng nhập</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Họ tên</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại di động</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại cố định</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Địa chỉ</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="list-order" class="table-responsive">
+        <div class="col-sm-6">
+            <div class="row">
+                <div id="filter">
+                    <label>Lọc đơn hàng</label>
+                    <select>
+                        <option>1.000.000 - 5.000.000</option>
+                        <option>5.000.000 - 20.000.000</option>
+                        <option>> 20.000.000</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="row">
+                <!-- wSearchBox -->
+                <div id="order-search" class="wSearchBox">
+                    <label>Tìm kiếm</label>
+                    <form action="" method="post">
+                        <input type="text" placeholder="Search"/>
+                        <button type="submit"><span class="glyphicon glyphicon-search"></span> </button>
+                    </form>
+                </div>
+                <!-- end of wSearchBox #main-search-box-->
+            </div>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th> </th>
+                <th>Mã đơn hàng</th>
+                <th>Ngày tạo</th>
+                <th>Tổng sản phẩm</th>
+                <th>Giá quy đổi</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input type="checkbox" class="check-list"/></td>
+                <td class="order-id"><a href="#">DH-01937281</a> </td>
+                <td>22/11/2014</td>
+                <td>1</td>
+                <td>3.555 vnđ</td>
+                <td>2.100.000 vnđ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="check-list"/></td>
+                <td class="order-id"><a href="#">DH-01937281</a> </td>
+                <td>22/11/2014</td>
+                <td>1</td>
+                <td>3.555 vnđ</td>
+                <td>2.100.000 vnđ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="check-list"/></td>
+                <td class="order-id"><a href="#">DH-01937281</a> </td>
+                <td>22/11/2014</td>
+                <td>1</td>
+                <td>3.555 vnđ</td>
+                <td>2.100.000 vnđ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="check-list"/></td>
+                <td class="order-id"><a href="#">DH-01937281</a> </td>
+                <td>22/11/2014</td>
+                <td>1</td>
+                <td>3.555 vnđ</td>
+                <td>2.100.000 vnđ</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="morde">
+            <button type="button">Xem các đơn hàng cũ hơn</button>
+        </div>
+    </div>
+    <div id="total">
+        <table class="table">
+            <tbody>
+            <tr>
+                <td>Tổng số đơn hàng</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>Tổng số sản phẩm đã mua</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>Tổng giá trị hóa đơn</td>
+                <td>123.000.000 vnđ</td>
+            </tr>
+
+            </tbody>
+        </table>
+        <div class="notice">(*) Lưu ý: đơn hàng sẽ bị sau 5 ngày nếu không chấp nhận thanh toán</div>
     </div>
 </div><!--end #main-content-->
 </div>
 </div>
 </section>
 <footer id="footer">
+    <div class="modal fade" id="myMap" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <div class="modal-body">
+                    <img src="images/bando-03.png" class="img-responsive" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -149,37 +323,29 @@
                     <!-- end of wBanner #top-logo -->
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-9">
                 <div class="row">
                     <div id="contact">
                         <div class="title">
                             Hệ thống chi nhánh
                         </div>
                         <div class="item">
+                            <div class="go-to-map">
+                                <button type="button" class="btn map" data-toggle="modal" data-target="#myMap"></button>
+                            </div>
                             <div class="first">Chi nhánh 1</div>
                             <div>Địa chỉ: <span>261 - Ông Ích Khiêm - Hà Nội</span></div>
                             <div>Số điện thoại: <span>(+84) 9876554332</span></div>
                         </div>
                         <div class="item">
+                            <div class="go-to-map">
+                                <button type="button" class="btn map" data-toggle="modal" data-target="#myMap"></button>
+                            </div>
                             <div class="first">Chi nhánh 2</div>
                             <div>Địa chỉ: <span>21 - Hai Bà Trưng - Hà Nội</span></div>
                             <div>Số điện thoại: <span>(+84) 9876554332</span></div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="row">
-                    <!-- wListHtml -->
-                    <ul id="menu-bottom" class="wListHtml">
-                        <li class="title">Danh mục</li>
-                        <!-- Repeat 5 -->
-                        <li class="item2"><a href="#">Hướng dẫn mua hàng</a> </li>
-                        <li class="item1"><a href="#">Chính sách thanh toán</a> </li>
-                        <li class="item1"><a href="#">Hỗ trợ</a> </li>
-                        <!-- end of repeat 5 -->
-                    </ul>
-                    <!-- end of wListHtml -->
                 </div>
             </div>
             <div id="copyright">

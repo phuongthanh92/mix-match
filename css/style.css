@@ -8,6 +8,11 @@ html, body{
     font: 12px "Arial";
     color: #231F20;
     background: #F5F5F5 ;
+    height: 100%;
+}
+body>.wrapper{
+    min-height: 100%;
+    position:relative;
 }
 @font-face {
     font-family: 'Poor Richard Regular';
@@ -29,7 +34,7 @@ a:hover{
 }
 #main-header{
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: 15px;
     font-family: "Roboto";
     padding-bottom: 10px;
 }
@@ -63,9 +68,11 @@ a:hover{
 }
 #main-search-box{
     position: relative;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     border: 2px solid #0e557d;
     clear: both;
+    margin: 0 auto;
 }
 #main-search-box button{
     border: none;
@@ -117,11 +124,19 @@ a:hover{
 #top-content{
     overflow: hidden;
 }
+#warehouse{
+    text-align: center;
+}
+#warehouse > .item{
+    padding: 5px 10px ;
+    background: #FF0000;
+    color: #ffffff;
+    display: inline-block;
+}
 #hot-news{
-    padding: 10px;
-    background: #ffffff;
+    padding: 5px;
     margin-right: 20px;
-    box-shadow: 0 0 2px 2px #EEEEEE;
+    background: #e8e8e8;
 }
 #hot-news ul{
     padding-left: 10px;
@@ -163,7 +178,7 @@ a:hover{
     text-decoration: none;
 }
 #hot-news > .content-box{
-    background: #F5F5F5;
+    background: #e8e8e8;
 }
 #hot-news > .title-box{
     color: #FF0000;
@@ -171,12 +186,12 @@ a:hover{
     font-weight: 700;
     font-size: 16px;
     padding: 10px;
-    background: #F5F5F5;
+    background: #e8e8e8;
     font-family: "Roboto";
 }
 #main-slider{
     background: #ffffff;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 0 0 2px 2px #EEEEEE;
 }
 #main-slider .item{
@@ -223,6 +238,8 @@ a:hover{
 #tool>.item>.description{
     display: inline-block;
     margin-top: 5px;
+    vertical-align: bottom;
+    padding-bottom: 5px;
 }
 #tool>.item>.description>span{
     display: block;
@@ -342,6 +359,14 @@ a:hover{
     padding: 15px  15px 0 ;
     background: #ffffff;
     box-shadow: 0 0 2px 2px #EEEEEE;
+}
+#footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+#section{
+    padding-bottom: 60px;
 }
 #contact{
     padding-right: 15px;
@@ -472,14 +497,16 @@ a:hover{
 }
 #total{
     padding-bottom: 20px;
+    overflow: hidden;
 }
 #total > .table{
     width: 100%;
     max-width: 450px;
     font: 16px "Roboto";
-    margin: 0 auto 15px;
+    float: right;
     background: #ffffff;
     box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    margin-right: 3px;
 }
 #total > .table >tbody > tr > td{
     border-bottom: 1px solid #d4d4d4;
@@ -549,7 +576,12 @@ a:hover{
 }
 #order-detail table>tbody tr > td:nth-child(3), #order-detail table tr > th:nth-child(3){
     width: 10%;
+    text-align: center;
 }
+#order-detail table>tfoot tr > td:nth-child(2){
+    text-align: center;
+}
+
 #order-detail table> tbody tr > td:nth-child(4), #order-detail table tr > th:nth-child(4){
     width: 10%;
     text-align: center;
@@ -584,7 +616,7 @@ a:hover{
 }*/
 #order-detail table.shop td>.note input{
     padding: 2px 10px;
-
+    min-width: 535px;
 }
 #order-detail table.shop td>.note button{
     border: 1px solid #686868;
@@ -600,4 +632,67 @@ a:hover{
     padding: 2px 5px ;
     border-radius: 3px;
     border: 1px solid #d4d4d4;
+}
+.form-style-01 {
+    background: #ffffff;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.form-style-01 > .title{
+    font: 21px "Droid Sans";
+    color: #015489;
+    text-transform: uppercase;
+    padding-bottom: 5px ;
+    border-bottom: 1px dashed #015489;
+    margin-bottom: 20px;
+}
+.form-style-01 .group-btn{
+    text-align: right;
+}
+
+#order-detail .comments{
+    max-height: 68px;
+    overflow-y: auto;
+}
+#order-detail .comments > .item > .time{
+    font-size: 11px ;
+    color: #015489;
+}
+#order-detail .note{
+    margin-top: 10px;
+}
+h3.page{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto";
+}
+#order-detail .shop .shop-name{
+    width: 30%;
+    padding-left: 20px;
+    display: inline-block;
+}
+#order-detail .shop .btn-group{
+    float: right;
+}
+.title-page>h3, #sidebar > h4{
+    margin-top: 0 ;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#sidebar, #content-page{
+    padding: 10px ;
+}
+#sidebar{
+    margin-right: 10px ;
+}
+#content-page{
+    margin-left: 10px;
+}
+#content-page >#order-detail table.table-bordered:first-child thead{
+    font-size: 14px;
 }

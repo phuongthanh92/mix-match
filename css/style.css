@@ -764,7 +764,7 @@ h3.page{
 #pager{
     clear: both;
     overflow: hidden ;
-    padding: 10px 0;
+    padding:10px 0 25px 0;
 }
 #pager ul{
     float: right;
@@ -780,4 +780,52 @@ h3.page{
 #pager li.active a, #pager li:hover a{
     color: #c62127;
     border-bottom: 1px solid #c62127;
+}
+#list-news .item{
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+#list-news>.wrapper{
+    margin: 0 -10px;
+    overflow-y: hidden;
+}
+#list-news .item a.title{
+    font: 15px "Arial";
+    font-weight: bold;
+    color: #015489;
+}
+#list-news .item a.title:hover{
+    color: #FF0000;
+}
+#list-news .item > .wrapper-thumb{
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+}
+#list-news .item > .wrapper-thumb > .thumb{
+    width: 100%;
+}
+#list-news .item >.wrapper> .content{
+    color: #403a37;
+    text-align: justify;
+}
+#list-news .item > .wrapper{
+    max-height: 125px;
+}
+.time {
+    color: #898989;
+    font-size: 12px;
+    padding: 3px 0;
+    display: block;
+}
+
+#content-detail.wDetailBox .title_box{
+    font-size: 18px;
+    font-weight: bold;
+}
+#content-detail.wDetailBox .content{
+    margin-top: 10px;
 }

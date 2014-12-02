@@ -29,19 +29,14 @@
     background: #015489;
     padding-left: 15px;
 }
-/*.table-style-01 > tbody > tr > td,.table-style-01 > tfoot > tr > td{
+.table-style-01 > tbody > tr > td,.table-style-01 > tfoot > tr > td{
     vertical-align: top;
-    border: 1px solid #f5f5f5;
+    /*border: 1px solid #f5f5f5;*/
 }
-.table-style-01 > tbody > tr:nth-child(even){
-    background: #d9edf7;
-}
-.table-style-01 > tbody > tr:nth-child(odd){
-    background: #ffffff;
-}
+
 .table-style-01 > tbody > tr:hover{
     background: #f2dede;
-}*/
+}
 
 .table-style-01 tfoot {
     background: SeaGreen;
@@ -98,4 +93,24 @@ button.style-01{
 .btn-group > button:hover{
     background: #015489;
     color: #ffffff!important;
+}
+.form-style-01 {
+    background: #ffffff;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 35px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.form-style-01 > .title{
+    font: 21px "Droid Sans";
+    color: #015489;
+    text-transform: uppercase;
+    padding-bottom: 5px ;
+    border-bottom: 1px dashed #015489;
+    margin-bottom: 20px;
+}
+.form-style-01 .group-btn{
+    text-align: right;
 }

@@ -1,5 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -355,18 +362,16 @@ a:hover{
     background: #D53761;
     text-decoration: none;
 }
+#section{
+    min-height: 355px;
+}
 #footer > .container{
     padding: 15px  15px 0 ;
     background: #ffffff;
-    box-shadow: 0 0 2px 2px #EEEEEE;
+    box-shadow: 0 -2px 2px 2px #EEEEEE;
 }
 #footer{
-    position:absolute;
-    bottom:0;
-    width: 100%;
-}
-#section{
-    padding-bottom: 60px;
+    padding-bottom: 35px;
 }
 #contact{
     padding-right: 15px;
@@ -420,8 +425,14 @@ a:hover{
 #copyright{
     clear: both;
     text-align: center;
-    margin-top: 10px;
-    padding: 10px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+#copyright>.container{
+    border-top: 1px solid #d4d4d4;
+    padding: 10px 15px;
+    background: #ffffff;
 }
 #myMap .modal-content{
     position: relative;
@@ -481,9 +492,9 @@ a:hover{
 #list-order .table tr td:first-child, #list-order .table tr th:first-child{
     text-align: center;
 }
-/*#list-order .table >tbody >tr:nth-child(even){
+#list-order .table >tbody >tr:nth-child(even){
     background: #f2dede;
-}*/
+}
 #list-order .table >tbody >tr:hover{
     background: #d9edf7;
 }
@@ -494,6 +505,22 @@ a:hover{
     color: #000000;
     font: 14px "Roboto";
     font-weight: 300;
+}
+#list-order .actions > a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icons/icons.gif") no-repeat center;
+}
+#list-order .actions > a.add{
+    background-position: 0 -48px;
+}
+#list-order .actions > a.edit{
+    background-position: 0 -80px;
+}
+#list-order .actions > a.delete{
+    background-position: 0 -54px;
+
 }
 #total{
     padding-bottom: 20px;
@@ -633,27 +660,18 @@ a:hover{
     border-radius: 3px;
     border: 1px solid #d4d4d4;
 }
-.form-style-01 {
-    background: #ffffff;
-    box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
-    border-radius: 5px;
-    margin: 5px auto;
-    padding: 20px;
+#profile{
     width: 100%;
-    max-width: 400px;
+    max-width: 520px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.3);
 }
-.form-style-01 > .title{
-    font: 21px "Droid Sans";
-    color: #015489;
-    text-transform: uppercase;
-    padding-bottom: 5px ;
-    border-bottom: 1px dashed #015489;
-    margin-bottom: 20px;
-}
-.form-style-01 .group-btn{
+#profile .group-btn{
     text-align: right;
+    margin-right: 15px;
 }
-
 #order-detail .comments{
     max-height: 68px;
     overflow-y: auto;
@@ -678,15 +696,16 @@ h3.page{
 #order-detail .shop .btn-group{
     float: right;
 }
+#order-detail.cart table.shop td>.note input{
+    min-width: 360px;
+}
 .title-page>h3, #sidebar > h4{
     margin-top: 0 ;
     margin-bottom: 10px;
     font-size: 16px;
     text-transform: uppercase;
 }
-#sidebar, #content-page{
-    padding: 10px ;
-}
+
 #sidebar{
     margin-right: 10px ;
 }
@@ -694,5 +713,62 @@ h3.page{
     margin-left: 10px;
 }
 #content-page >#order-detail table.table-bordered:first-child thead{
+    font: 14px "Roboto";
+    }
+#hot-news{
+    padding: 5px;
+    margin-right: 20px;
+    background: #e8e8e8;
+}
+#personal-category{
+    text-align: justify;
+}
+#personal-category >li{
+    padding: 10px 0 10px ;
+    list-style-type: none;
+    border-top: 1px dotted #d4d4d4;
+}
+#personal-category >li > a{
+    padding-left: 23px;
+    background: url("../images/icons/icons.gif");
+    background-repeat: no-repeat;
     font-size: 14px;
+    color: #015489;
+}
+#personal-category >li:hover a, #personal-category >li.active > a{
+    color: #FF0000;
+}
+
+#personal-category >li.profile > a{
+    background-position: 0 -558px;
+}
+#personal-category >li.cart > a{
+    background-position: 0 -144px;
+}
+#personal-category >li.orders > a{
+    background-position: 0 -633px;
+    padding-top: 3px  ;
+}
+#personal-category >li.profile > a{
+    background-position: 0 -558px;
+}
+#pager{
+    clear: both;
+    overflow: hidden ;
+    padding: 10px 0;
+}
+#pager ul{
+    float: right;
+}
+#pager li{
+    float: left;
+    padding: 0 3px;
+}
+#pager li a{
+    color: #676767;
+    padding: 1px 3px ;
+}
+#pager li.active a, #pager li:hover a{
+    color: #c62127;
+    border-bottom: 1px solid #c62127;
 }

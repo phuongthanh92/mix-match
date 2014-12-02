@@ -47,12 +47,16 @@
                     </div>
                 </div>
             </div>
-            <div id="copyright">
-                &copy Bản quyền thuộc về Jenny 2014
-            </div>
         </div>
     </div>
 </footer>
+<div id="copyright">
+    <div class="container">
+        <div class="row">
+            &copy Bản quyền thuộc về Jenny 2014
+        </div>
+    </div>
+</div>
 </div>
 </body>
 </html>

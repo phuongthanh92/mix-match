@@ -501,15 +501,25 @@ a:hover{
 #list-order td{
     padding: 5px 8px;
 }
+#list-order td.money, #list-order td.cost{
+    text-align: right;
+}
+#list-order td.quantity{
+    text-align: center;
+}
 #list-order td.order-id > a{
     color: #000000;
     font: 14px "Roboto";
     font-weight: 300;
 }
+#list-order tr>td:last-child{
+    text-align: center;
+}
 #list-order .actions > a{
     display: inline-block;
     width: 16px;
     height: 16px;
+    margin: 0 3px;
     background: url("../images/icons/icons.gif") no-repeat center;
 }
 #list-order .actions > a.add{
@@ -519,8 +529,7 @@ a:hover{
     background-position: 0 -80px;
 }
 #list-order .actions > a.delete{
-    background-position: 0 -54px;
-
+    background-position: 0 -64px;
 }
 #total{
     padding-bottom: 20px;

@@ -517,12 +517,13 @@ a:hover{
 }
 #list-order .actions > a{
     display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin: 0 3px;
-    background: url("../images/icons/icons.gif") no-repeat center;
+    padding: 0 4px;
+    border-right: 1px solid #3c3c3c;
 }
-#list-order .actions > a.add{
+#list-order .actions > a:last-child{
+    border-right: none;
+}
+/*#list-order .actions > a.add{
     background-position: 0 -48px;
 }
 #list-order .actions > a.edit{
@@ -530,7 +531,7 @@ a:hover{
 }
 #list-order .actions > a.delete{
     background-position: 0 -64px;
-}
+}*/
 #total{
     padding-bottom: 20px;
     overflow: hidden;
@@ -560,7 +561,7 @@ a:hover{
 #order-search{
     padding-bottom: 15px;
 }
-#filter > select{
+.filter select{
     padding: 5px; margin-left: 10px;
 }
 #order-search{
@@ -577,11 +578,21 @@ a:hover{
     background: transparent ;
     padding: 5px 10px ;
 }
-#order-search form{
+#filter input{
+    border: 1px solid #cccccc;
+    background: #ffffff ;
+    padding: 5px 10px ;
+    width: 120px;
+    line-height: normal;
+}
+#order-search .form{
     display: inline-block;
     background: #ffffff;
     border: 1px solid #888;
     margin-left: 10px;
+}
+#filter .attribute, #order-search .attribute{
+    margin-top: 10px ;
 }
 .morde button{
     border: none;

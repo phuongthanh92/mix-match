@@ -124,26 +124,41 @@
 <div id="list-order" class="table-responsive">
     <div class="col-sm-6">
         <div class="row">
-            <div id="filter">
-                <label>Lọc đơn hàng</label>
-                <select>
-                    <option>1.000.000 - 5.000.000</option>
-                    <option>5.000.000 - 20.000.000</option>
-                    <option>> 20.000.000</option>
-                </select>
+            <div id="filter" class="filter">
+                <div id="price-filter" class="attribute">
+                    <label>Lọc theo giá trị</label>
+                    <select>
+                        <option>1.000.000 - 5.000.000</option>
+                        <option>5.000.000 - 20.000.000</option>
+                        <option>> 20.000.000</option>
+                    </select>
+                </div>
+                <div id="time-filter" class="attribute">
+                    <label>Lọc theo thời gian tạo đơn</label>
+                    <input type="text" placeholder="1/1/2012"/>
+                    <input type="text" placeholder="1/1/2012"/>
+                </div>
             </div>
         </div>
     </div>
     <div class="col-sm-6">
         <div class="row">
             <!-- wSearchBox -->
-            <div id="order-search" class="wSearchBox">
-                <label>Tìm kiếm</label>
-
-                <form action="" method="post">
-                    <input type="text" placeholder="Search"/>
-                    <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                </form>
+            <div id="order-search" class="wSearchBox filter">
+                <div id="order-id" class="attribute">
+                    <label>Tìm kiếm theo mã đơn</label>
+                    <div class="form">
+                        <input type="text" placeholder="Search"/>
+                        <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </div>
+                <div id="order-status-filter" class="attribute">
+                    <label>Tìm kiếm theo trạng thái đơn hàng</label>
+                    <select>
+                        <option>Đã giao hàng</option>
+                        <option>Đã duyệt</option>
+                    </select>
+                </div>
             </div>
             <!-- end of wSearchBox #main-search-box-->
         </div>
@@ -151,70 +166,67 @@
     <table class="table table-bordered">
         <thead>
         <tr>
-            <th></th>
-            <th>Mã đơn hàng</th>
-            <th>Ngày tạo</th>
+            <th>STT</th>
+            <th>Thông tin đơn hàng</th>
             <th>Tổng sản phẩm</th>
-            <th>Giá quy đổi</th>
             <th>Tổng tiền</th>
             <th>Trạng thái</th>
-            <th></th>
+            <th>Thao tác</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td><input type="checkbox" class="check-list"/></td>
+            <td>1</td>
             <td class="order-id"><a href="#">DH-01937281</a></td>
-            <td class="date-time">22/11/2014</td>
             <td class="quantity">1</td>
-            <td class="cost">3.555 vnđ</td>
             <td class="money">2.100.000 vnđ</td>
             <td><span class="over-stock">Hết hàng</span></td>
-            <td class="actions"><a class="add" href="#"></a><a class="edit" href="#"></a><a class="delete" href="#"></a>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
             </td>
         </tr>
         <tr>
-            <td><input type="checkbox" class="check-list"/></td>
+            <td>1</td>
             <td class="order-id"><a href="#">DH-01937281</a></td>
-            <td class="date-time">22/11/2014</td>
             <td class="quantity">1</td>
-            <td class="cost">3.555 vnđ</td>
             <td class="money">2.100.000 vnđ</td>
             <td><span class="over-stock">Hết hàng</span></td>
-            <td class="actions"><a class="add" href="#"></a><a class="edit" href="#"></a><a class="delete" href="#"></a>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
             </td>
         </tr>
         <tr>
-            <td><input type="checkbox" class="check-list"/></td>
+            <td>1</td>
             <td class="order-id"><a href="#">DH-01937281</a></td>
-            <td class="date-time">22/11/2014</td>
             <td class="quantity">1</td>
-            <td class="cost">3.555 vnđ</td>
             <td class="money">2.100.000 vnđ</td>
             <td><span class="over-stock">Hết hàng</span></td>
-            <td class="actions"><a class="add" href="#"></a><a class="edit" href="#"></a><a class="delete" href="#"></a>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
             </td>
         </tr>
         <tr>
-            <td><input type="checkbox" class="check-list"/></td>
+            <td>1</td>
             <td class="order-id"><a href="#">DH-01937281</a></td>
-            <td class="date-time">22/11/2014</td>
             <td class="quantity">1</td>
-            <td class="cost">3.555 vnđ</td>
             <td class="money">2.100.000 vnđ</td>
             <td><span class="over-stock">Hết hàng</span></td>
-            <td class="actions"><a class="add" href="#"></a><a class="edit" href="#"></a><a class="delete" href="#"></a>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
             </td>
         </tr>
         <tr>
-            <td><input type="checkbox" class="check-list"/></td>
+            <td>1</td>
             <td class="order-id"><a href="#">DH-01937281</a></td>
-            <td class="date-time">22/11/2014</td>
             <td class="quantity">1</td>
-            <td class="cost">3.555 vnđ</td>
             <td class="money">2.100.000 vnđ</td>
             <td><span class="over-stock">Hết hàng</span></td>
-            <td class="actions"><a class="add" href="#"></a><a class="edit" href="#"></a><a class="delete" href="#"></a>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
+            </td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="order-id"><a href="#">DH-01937281</a></td>
+            <td class="quantity">1</td>
+            <td class="money">2.100.000 vnđ</td>
+            <td><span class="over-stock">Hết hàng</span></td>
+            <td class="actions"><a href="#">Sửa</a><a href="#">Xóa</a>
             </td>
         </tr>
         </tbody>

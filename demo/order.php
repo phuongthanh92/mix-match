@@ -109,7 +109,7 @@
             <td><input type="checkbox" class="check-list"/><label></label></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>
@@ -146,7 +146,7 @@
             <td><input type="checkbox" class="check-list"/></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>
@@ -203,7 +203,7 @@
             <td><input type="checkbox" class="check-list"/></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>
@@ -240,7 +240,7 @@
             <td><input type="checkbox" class="check-list"/></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>
@@ -297,7 +297,7 @@
             <td><input type="checkbox" class="check-list"/></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>
@@ -334,7 +334,7 @@
             <td><input type="checkbox" class="check-list"/></td>
             <td>
                 <div class="image-item">
-                    <img src="images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
+                    <img src="../images/data/product-01_nho-01.jpg" alt=".." class="img-responsive"/>
                 </div>
                 <div class="info-item">
                     <div>ID Sản phẩm <span class="code-product">SP001</span></div>

@@ -4,7 +4,7 @@
             <div class="modal-content">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                 <div class="modal-body">
-                    <img src="images/bando-03.png" class="img-responsive" alt="...">
+                    <img src="../images/bando-03.png" class="img-responsive" alt="...">
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                     <!-- wBanner -->
                     <div id="bottom-logo" class="wBanner logo">
                         <a href="#" title="...">
-                            <img src="images/logo.png" alt="..."/>
+                            <img src="../images/logo.png" alt="..."/>
                         </a>
                     </div>
                     <!-- end of wBanner #top-logo -->

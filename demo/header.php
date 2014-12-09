@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
           rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css"/>
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link type="text/css" rel="stylesheet" href="css/customize.css"/>
-    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-    <link type="text/css" rel="stylesheet" href="css/responsive.css"/>
-    <script type='text/javascript' src="js/jquery.js"></script>
-    <script type='text/javascript' src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-    <script type='text/javascript' src="js/style.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap-theme.min.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/customize.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/jquery.bxslider.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/responsive.css"/>
+    <script type='text/javascript' src="../js/jquery.js"></script>
+    <script type='text/javascript' src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+    <script type='text/javascript' src="../js/style.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -28,7 +28,7 @@
                             <!-- wBanner -->
                             <div id="top-logo" class="wBanner logo">
                                 <a href="#" title="...">
-                                    <img src="images/logo.png" alt="..."/>
+                                    <img src="../images/logo.png" alt="..."/>
                                 </a>
                             </div>
                             <!-- end of wBanner #top-logo -->

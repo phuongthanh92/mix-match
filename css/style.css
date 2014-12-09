@@ -709,15 +709,46 @@ h3.page{
 #order-detail.cart table.shop td>.note input{
     min-width: 360px;
 }
-.title-page>h3, #sidebar > h4{
+.title-page>h3, #sidebar > h4 {
     margin-top: 0 ;
     margin-bottom: 10px;
     font-size: 16px;
     text-transform: uppercase;
+    color: #231F20;
 }
 
 #sidebar{
     margin-right: 10px ;
+    border-radius: 4px 4px 0 0;
+}
+#sidebar >h4{
+    padding: 8px 10px;
+    background: #0e557d;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+}
+#sidebar >h4 > a{
+    color: #ffffff;
+}
+#sidebar .content{
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+#sidebar .content{
+    padding: 5px 0 ;
+}
+#sidebar .content li{
+    padding: 5px 10px ;
+    border-bottom: 1px dotted #ccc;
+}
+#sidebar .content li > a{
+    color: #231F20;
+}
+#sidebar li:hover a{
+    color: #FF0000;
+}
+#sidebar .content li:last-child{
+    border-bottom: none;
 }
 #content-page{
     margin-left: 10px;
@@ -822,8 +853,10 @@ h3.page{
     padding: 3px 0;
     display: block;
 }
-
-#content-detail.wDetailBox .title_box, #{
+#content-detail.wDetailBox{
+    padding-left: 15px;
+}
+#content-detail.wDetailBox .title_box{
     font-size: 18px;
     font-weight: bold;
 }
@@ -835,4 +868,7 @@ h3.page{
     border: 1px solid #cccccc;
     overflow: hidden;
     background: #ffffff;
+}
+.breadcrumb{
+    margin-bottom: 0;
 }

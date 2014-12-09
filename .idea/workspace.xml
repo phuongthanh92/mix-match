@@ -28,8 +28,8 @@
       <file leaf-file-name="_user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9230769" vertical-offset="936" max-vertical-offset="2669">
-              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            <state vertical-scroll-proportion="-13.692307" vertical-offset="749" max-vertical-offset="2686">
+              <caret line="65" column="78" selection-start-line="64" selection-start-column="32" selection-end-line="65" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -48,11 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39130434" vertical-offset="9635" max-vertical-offset="15368">
-              <caret line="580" column="13" selection-start-line="580" selection-start-column="13" selection-end-line="580" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.571429" vertical-offset="14844" max-vertical-offset="15504">
+              <caret line="884" column="21" selection-start-line="884" selection-start-column="21" selection-end-line="884" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_cart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_cart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="1003" max-vertical-offset="4114">
+              <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -61,11 +71,9 @@
       <file leaf-file-name="_order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8461537" vertical-offset="545" max-vertical-offset="3519">
-              <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
-              <folding>
-                <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-15.0" vertical-offset="715" max-vertical-offset="5168">
+              <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_order-detail.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_order-detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_order-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.961538" vertical-offset="426" max-vertical-offset="3196">
+            <state vertical-scroll-proportion="1.0294627" vertical-offset="273" max-vertical-offset="3196">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="45" />
               <folding>
                 <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -129,13 +137,13 @@
         <option value="$PROJECT_DIR$/_login_trang.html" />
         <option value="$PROJECT_DIR$/_register_trang.html" />
         <option value="$PROJECT_DIR$/_list-news.html" />
-        <option value="$PROJECT_DIR$/_cart.html" />
-        <option value="$PROJECT_DIR$/_user.html" />
         <option value="$PROJECT_DIR$/_news_detail.html" />
         <option value="$PROJECT_DIR$/css/customize.css" />
         <option value="$PROJECT_DIR$/_order-detail.html" />
-        <option value="$PROJECT_DIR$/_order.html" />
+        <option value="$PROJECT_DIR$/_user.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/_cart.html" />
+        <option value="$PROJECT_DIR$/_order.html" />
       </list>
     </option>
   </component>
@@ -655,21 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9230769" vertical-offset="2517" max-vertical-offset="3094">
-          <caret line="171" column="90" selection-start-line="171" selection-start-column="90" selection-end-line="171" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9230769" vertical-offset="936" max-vertical-offset="2669">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/customize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1052" max-vertical-offset="2057">
@@ -689,31 +682,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_order-detail.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.961538" vertical-offset="426" max-vertical-offset="3196">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="45" />
-          <folding>
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-6.571429" vertical-offset="14844" max-vertical-offset="15504">
+          <caret line="884" column="21" selection-start-line="884" selection-start-column="21" selection-end-line="884" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.692307" vertical-offset="749" max-vertical-offset="2686">
+          <caret line="65" column="78" selection-start-line="64" selection-start-column="32" selection-end-line="65" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="1003" max-vertical-offset="4114">
+          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8461537" vertical-offset="545" max-vertical-offset="3519">
-          <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-15.0" vertical-offset="715" max-vertical-offset="5168">
+          <caret line="65" column="74" selection-start-line="65" selection-start-column="74" selection-end-line="65" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_order-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39130434" vertical-offset="9635" max-vertical-offset="15368">
-          <caret line="580" column="13" selection-start-line="580" selection-start-column="13" selection-end-line="580" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="1.0294627" vertical-offset="273" max-vertical-offset="3196">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

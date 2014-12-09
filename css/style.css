@@ -737,6 +737,7 @@ h3.page{
     background: #0e557d;
     border-radius: 4px 4px 0 0;
     margin-bottom: 0;
+    color: #ffffff;
 }
 #sidebar >h4 > a{
     color: #ffffff;
@@ -774,9 +775,11 @@ h3.page{
 }
 #personal-category{
     text-align: justify;
+    border: 1px solid #cccccc;
+    border-top: none;
 }
 #personal-category >li{
-    padding: 10px 0 10px ;
+    padding: 10px ;
     list-style-type: none;
     border-top: 1px dotted #d4d4d4;
 }
@@ -879,6 +882,7 @@ h3.page{
     border: 1px solid #cccccc;
     overflow: hidden;
     background: #ffffff;
+    min-height: 510px ;
 }
 .breadcrumb{
     margin-bottom: 0;
@@ -896,4 +900,8 @@ h3.page{
 }
 #order-status{
     text-align: right;
+}
+.error{
+    color: #d43f3a;
+    margin-top: 3px;
 }

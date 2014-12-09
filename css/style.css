@@ -872,3 +872,17 @@ h3.page{
 .breadcrumb{
     margin-bottom: 0;
 }
+#created-time{
+    float: right;
+    text-align: right;
+}
+#created-time > span{
+    font-weight: 600 ;
+}
+#sub-info{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#order-status{
+    text-align: right;
+}

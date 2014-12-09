@@ -696,6 +696,7 @@ h3.page{
     text-transform: uppercase;
     text-align: center;
     font-family: "Roboto";
+    margin-top: 0;
 }
 #order-detail .shop .shop-name{
     width: 30%;
@@ -822,10 +823,16 @@ h3.page{
     display: block;
 }
 
-#content-detail.wDetailBox .title_box{
+#content-detail.wDetailBox .title_box, #{
     font-size: 18px;
     font-weight: bold;
 }
 #content-detail.wDetailBox .content{
     margin-top: 10px;
+}
+#wrapper-user{
+    padding: 20px 10px ;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    background: #ffffff;
 }

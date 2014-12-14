@@ -905,3 +905,16 @@ h3.page{
     color: #d43f3a;
     margin-top: 3px;
 }
+.success{
+    color: green;
+}
+#notify, #info-cart{
+    display: none;
+}
+#order-detail .group-btn{
+    text-align: right;
+}
+#info-cart .group-btn{
+    text-align: right;
+    margin-right: 15px;
+}

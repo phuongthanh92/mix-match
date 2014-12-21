@@ -29,3 +29,42 @@
         margin-left: 43px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 677px){
+    #link-relate{
+        display: none;
+    }
+    .navbar-toggle{
+        background: #ffffff;
+    }
+    .navbar-toggle .icon-bar{
+        background: #FF0000;
+    }
+    #tool, #notice{
+        display: none;
+    }
+    #rule ol > li{
+        width: 100%;
+        padding: 5px 15px;
+        text-align: left;
+    }
+    .list-items .box_title a, .list-items .box_title > span{
+        font-size: 12px;
+    }
+    .list-items .box_title .description{
+        display: none;
+    }
+    .list-items .item{
+        width: 100%;
+    }
+    .list-items .item img{
+        max-width: 100%;
+    }
+    #contact > .item{
+        width: 100%;
+        float: left;
+    }
+    #hot-news{
+        display: none;
+    }
+}
